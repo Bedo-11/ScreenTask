@@ -1,0 +1,92 @@
+body {
+    background-color: #F8F9FA;
+}
+
+
+form {
+    width: 80%;
+}
+
+.form-b {
+    margin-top: 200px;
+    border: goldenrod solid 2px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.form-group {
+    direction: rtl;
+}
+
+input {
+    text-align: center;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+}
+input:hover,
+input:focus {
+    box-shadow: none;
+    border-color: none;
+    outline: goldenrod auto 5px ;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: rgba(218, 165, 32, 0.644);
+ }
+
+.form-control {
+    border-color: goldenrod;
+    box-shadow: 1px  goldenrod;
+} 
+
+.form-control:focus {
+    border-color: goldenrod;
+    box-shadow: 0 0 0 0.1rem goldenrod;
+} 
+
+.submit:hover {
+    background-color: rgb(235, 171, 11);
+    color: #fff;
+    transition: ease-in-out 0.2s;
+}
+
+.submit {
+    background-color: goldenrod;
+    color: #fff;
+}
+
+::placeholder {
+    text-align: center;
+    color: goldenrod;
+}
+
+
+input::placeholder {
+    color: goldenrod;
+}
+
+.table {
+    border: goldenrod solid 1px;
+
+}
+
+.table thead th  {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table td , .table th {
+    vertical-align: middle;
+}
+
+i {
+    margin: 0 5px;
+}
+
+nav { 
+    background-color: goldenrod;
+}
+
+ a {
+    color: #fff;
+}
