@@ -30,13 +30,17 @@ h2 {
     padding-bottom: 5px;
 }
 
-input {
+input,
+textarea {
     text-align: center;
     color: goldenrod;
     border: 1px solid goldenrod;
 }
+
 input:hover,
-input:focus {
+input:focus,
+textarea:hover,
+textarea:focus {
     box-shadow: none;
     border-color: none;
     outline: goldenrod auto 5px ;
@@ -79,7 +83,6 @@ input::placeholder {
 
 .table {
     border: goldenrod solid 1px;
-
 }
 
 .table thead th  {
